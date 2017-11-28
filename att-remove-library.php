@@ -12,7 +12,7 @@ Version: 0.1
 Author URI: https://github.com/mysticalghoul
 */
 function custom_remove_atts() {  
-    wp_enqueue_script( 'get_admin_script', get_site_url() . '/wp-content/plugins/att-remove-library/admin-remove-lib.js', array('jquery'), '1.0' );
+    wp_enqueue_script( 'get_admin_script', get_site_url() . '/wp-content/plugins/Wordpress-Remove-image-attachment-from-editor-master/admin-remove-lib.js', array('jquery'), '1.0' );
     wp_register_script('get_admin_script');
 }
 add_action('admin_init', 'custom_remove_atts');
